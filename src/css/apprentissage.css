@@ -1,0 +1,40 @@
+.apprentissage{
+    border: 2px solid rgb(234,67,53);
+    border-radius: 20px;
+}
+.apprentissage h2{
+    color: rgb(234,67,53);
+}
+.apprentissage h3{
+    color: rgb(234,67,53);
+}
+.apprentissage h3 a{
+    color: inherit;
+    text-decoration: none;
+}
+.apprentissage p{
+    font-size: 1.2vw;
+}
+.apprentissageDiv{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.apprentissageDiv:hover{
+    transition: 0.3s;
+    background-color: rgba(234,67,53,0.05);
+    border: 1px solid rgb(234,67,53);
+}
+.apprentissageDiv div{
+    flex: 1;
+    text-align: center;
+}
+.apprentissageDiv img{
+    min-height: 100px;
+    height: 60vh;
+    max-height: 225px;
+    border-radius: 30px;
+}
