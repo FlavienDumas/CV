@@ -3,6 +3,14 @@ body{
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     background-color: rgb(30,30,30);
 }
+h2{
+    margin: 3px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+}
 .center{
     display: flex;
     justify-content: center;
