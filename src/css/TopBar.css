@@ -1,0 +1,8 @@
+.divTopBar{
+    position: fixed;
+    left: 320px;
+    right: 1vw;
+    height: 5vh;
+    margin: 2vh 1vw 2vh 1vw;
+    background-color: rgb(75,75,100);
+}

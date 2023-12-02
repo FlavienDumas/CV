@@ -17,3 +17,14 @@ h2{
     align-items: center;
     text-align: center;
 }
+.popdiv{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    height: 25px;
+    padding: 0 10px;
+    background-color: rgb(185,185,140);
+    border-radius: 10px;
+}
