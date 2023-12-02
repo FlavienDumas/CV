@@ -1,4 +1,6 @@
 import CardSelf from "./CardSelf";
+import { useState } from "react";
+
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -15,6 +17,20 @@ import { MdPhoneEnabled } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 
 function SideBar() {
+    const [phoneHover, setPhoneHover] = useState(false);
+    const [mailHover, setMailHover] = useState(false);
+
+    const handlePhoneHover = ()=>{
+        setPhoneHover(!phoneHover)
+    }
+
+    const handleMailHover = ()=>{
+        setMailHover(!mailHover)
+    }
+
+    const copyContent = (content)=>{
+        
+    }
 
     return (
         <div className="divSideBar">
@@ -74,10 +90,28 @@ function SideBar() {
                 </div>
             </div>
             <div className="center divContact">
-                <a href=""><DiGithubBadge className="icon"/></a>
-                <a href=""><IoLogoLinkedin className="icon"/></a>
-                <MdPhoneEnabled className="icon"/>
-                <button><IoMdMail className="icon"/></button>
+                <a href="https://github.com/FlavinouTheOne" target="_blank">
+                    <DiGithubBadge className="icon"/>
+                </a>
+                <a href="https://www.linkedin.com/in/flavien-dumas-b90261245/" target="_blank">
+                    <IoLogoLinkedin className="icon"/>
+                </a>
+                <div className="iconContainer" onMouseEnter={handlePhoneHover}
+                onMouseLeave={handlePhoneHover} onClick={()=>{copyContent("")}}>
+                    {phoneHover === true ?
+                    <div className="popdiv">
+                        06.61.77.61.72
+                    </div>: null}
+                    <MdPhoneEnabled className="icon"/>
+                </div>
+                <div className="iconContainer" onMouseEnter={handleMailHover}
+                onMouseLeave={handleMailHover} onClick={()=>{copyContent("")}}>
+                    {mailHover === true ?
+                    <div className="popdiv">
+                        Flavien.dumas63@gmail.com
+                    </div>: null}
+                    <IoMdMail className="icon"/>
+                </div>
             </div>
         </div>
     )

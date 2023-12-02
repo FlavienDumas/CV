@@ -23,6 +23,7 @@
     height: 35px;
     width: 35px;
     color: rgb(200,200,200);
+    margin: 0 2px;
 }
 
 .divContact{
@@ -37,15 +38,28 @@
     width: 25px;
     height: 25px;
 }
-.divContact button{
-    width: 25px;
-    height: 25px;
-    border: none;
-    padding: 0;
-    background-color: inherit;
-}
 .divContact .icon{
     height: 25px;
     width: 25px;
     color: rgb(200,200,200);
+}
+.divContact .icon:hover{
+    background-color: rgb(50,50,60);
+    cursor: pointer;
+}
+.divContact .iconContainer{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+.popdiv{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    height: 25px;
+    padding: 0 10px;
+    background-color: rgb(185,185,140);
+    border-radius: 10px;
 }
