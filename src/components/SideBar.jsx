@@ -35,57 +35,59 @@ function SideBar() {
     return (
         <div className="divSideBar">
             <CardSelf/>
-            <div className="divInfo">
-                <div className="center">
-                    <div>Ville:</div>
-                    <div>Clermont-Ferrand</div>
-                </div>
-                <div className="center">
-                    <div>Age:</div>
-                    <div>23</div>
-                </div>
-            </div>
-            <div className="divInfo">
-                <h2>Frontend</h2>
-                <div className="center">
-                    <div>React</div>
+            <div className="sideGeneralDiv">
+                <div className="divInfo">
                     <div className="center">
-                        <DiReact className="icon"/>
+                        <div>Ville:</div>
+                        <div>Clermont-Ferrand</div>
+                    </div>
+                    <div className="center">
+                        <div>Age:</div>
+                        <div>23</div>
                     </div>
                 </div>
-                <div className="center">
-                    <div>Html/Css/TS</div>
+                <div className="divInfo">
+                    <h2>Frontend</h2>
                     <div className="center">
-                        <DiHtml5 className="icon"/>
-                        <DiCss3 className="icon"/>
-                        <BiLogoTypescript className="icon"/>
+                        <div>React</div>
+                        <div className="center">
+                            <DiReact className="icon"/>
+                        </div>
+                    </div>
+                    <div className="center">
+                        <div>Html/Css/TS</div>
+                        <div className="center">
+                            <DiHtml5 className="icon"/>
+                            <DiCss3 className="icon"/>
+                            <BiLogoTypescript className="icon"/>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="divInfo">
-                <h2>Backend</h2>
-                <div className="center">
-                    <div>NodeJs/Php</div>
+                <div className="divInfo">
+                    <h2>Backend</h2>
                     <div className="center">
-                        <TbBrandNodejs className="icon"/>
-                        <SiPhp className="icon"/>
+                        <div>NodeJs/Php</div>
+                        <div className="center">
+                            <TbBrandNodejs className="icon"/>
+                            <SiPhp className="icon"/>
+                        </div>
+                    </div>
+                    <div className="center">
+                        <div>GraphQL/REST</div>
+                        <div className="center">
+                            <GrGraphQl className="icon"/>
+                            <TbApi className="icon"/>
+                        </div>
                     </div>
                 </div>
-                <div className="center">
-                    <div>GraphQL/REST</div>
+                <div className="divInfo">
+                    <h2>DevOps</h2>
                     <div className="center">
-                        <GrGraphQl className="icon"/>
-                        <TbApi className="icon"/>
-                    </div>
-                </div>
-            </div>
-            <div className="divInfo">
-                <h2>DevOps</h2>
-                <div className="center">
-                    <div>Git/Docker</div>
-                    <div className="center">
-                        <DiGit className="icon"/>
-                        <FaDocker className="icon"/>
+                        <div>Git/Docker</div>
+                        <div className="center">
+                            <DiGit className="icon"/>
+                            <FaDocker className="icon"/>
+                        </div>
                     </div>
                 </div>
             </div>

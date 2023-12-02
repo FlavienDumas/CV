@@ -5,4 +5,16 @@
     height: 5vh;
     margin: 2vh 1vw 2vh 1vw;
     background-color: rgb(75,75,100);
+    justify-content: space-around;
+}
+.divTopBar button{
+    background-color: inherit;
+    border: none;
+    color: whitesmoke;
+    height: 80%;
+    width: 10%;
+}
+.divTopBar button:hover{
+    cursor: pointer;
+    background-color: rgb(50,50,60);
 }

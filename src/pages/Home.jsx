@@ -3,7 +3,9 @@
 function Home() {
 
     return (
-      <div></div>
+      <div className="divHome">
+        <img className="pdp" src="../src/assets/pdp.jpg" alt="PDP" />
+      </div>
     )
   }
   

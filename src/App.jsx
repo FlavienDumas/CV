@@ -7,6 +7,7 @@ import "./css/global.css";
 import "./css/SideBar.css";
 import "./css/CardSelf.css";
 import "./css/TopBar.css";
+import "./css/Home.css";
 
 function App() {
 
@@ -14,9 +15,11 @@ function App() {
     <>
       <SideBar/>
       <TopBar/>
-      <Routes >
-        <Route path="/" element={<Home/>}/>*
-      </Routes>
+      <div className="mainContent">
+        <Routes >
+          <Route path="/" element={<Home/>}/>*
+        </Routes>
+      </div>
     </>
   )
 }

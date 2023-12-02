@@ -7,6 +7,13 @@
     background-color: rgb(50,50,60);
 }
 
+.sideGeneralDiv{
+    width: 100%;
+    position: absolute;
+    top: 220px;
+    bottom: 41px;
+    overflow: auto;
+}
 .divInfo{
     flex-direction: column;
     margin: 0 20px;
@@ -30,6 +37,7 @@
     position: absolute;
     bottom: 0;
     width: 235px;
+    height: 25px;
     padding: 8px 20px;
     justify-content: space-around;
     background-color: rgb(75,75,100);
