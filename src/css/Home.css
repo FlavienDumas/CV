@@ -1,5 +1,28 @@
+.divHome{
+    flex-direction: column;
+}
 .divHome .pdp{
     width: 25%;
     height: 25%;
-    border-radius: 100%;
+    min-width: 135px;
+    min-height: 135px;
+    border-radius: 5px;
+}
+.wcsLink{
+    color: rgb(247,20,107);
+    text-decoration: none;
+}
+.wcsLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.divHome .divTitle{
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contentHome{
+    margin-top: 2vh;
+    justify-content: space-around;
+    width: 100%;
 }

@@ -8,6 +8,7 @@ import "./css/SideBar.css";
 import "./css/CardSelf.css";
 import "./css/TopBar.css";
 import "./css/Home.css";
+import "./css/CardContent.css";
 
 function App() {
 

@@ -4,6 +4,11 @@ body{
     background-color: rgb(30,30,30);
     overflow: auto;
 }
+h1{
+    font-size: max(2vw, 18px);
+    color: white;
+    text-align: left;
+}
 h2{
     margin: 3px;
     padding: 0;
@@ -22,6 +27,7 @@ h3{
     top: 10vh;
     right: 1vw;
     height: 85vh;
+    min-width: 430px;
     margin: 2vh 1vw 2vh 1vw;
 }
 
