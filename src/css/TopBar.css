@@ -14,8 +14,11 @@
     color: whitesmoke;
     height: 80%;
     width: 10%;
+    border: 1px solid rgb(75,75,100);
+    transition: 1s;
 }
 .divTopBar button:hover{
     cursor: pointer;
     background-color: rgb(50,50,60);
+    border: 1px solid white;
 }

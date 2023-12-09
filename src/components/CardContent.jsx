@@ -6,7 +6,7 @@ function CardContent({ title, content, logo }) {
         <div className="center divCardContent">
             <h3>{title}</h3>
             <p>{content}</p>
-            <div>{logo}</div>
+            <div className="center">{logo}</div>
         </div>
     )
   }

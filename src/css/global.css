@@ -10,6 +10,15 @@ h1{
     text-align: left;
 }
 h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+h4{
     margin: 3px;
     padding: 0;
     font-size: 15px;
@@ -17,17 +26,14 @@ h2{
     color: whitesmoke;
     text-align: center;
 }
-h3{
-    font-size: 15px;
-    margin: 0;
-}
 .mainContent{
+    overflow: auto;
     position: fixed;
     left: 320px;
     top: 10vh;
     right: 1vw;
     height: 85vh;
-    min-width: 430px;
+    min-width: 575px;
     margin: 2vh 1vw 2vh 1vw;
 }
 

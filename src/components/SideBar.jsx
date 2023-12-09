@@ -47,7 +47,7 @@ function SideBar() {
                     </div>
                 </div>
                 <div className="divInfo">
-                    <h2>Frontend</h2>
+                    <h4>Frontend</h4>
                     <div className="center">
                         <div>React</div>
                         <div className="center">
@@ -64,7 +64,7 @@ function SideBar() {
                     </div>
                 </div>
                 <div className="divInfo">
-                    <h2>Backend</h2>
+                    <h4>Backend</h4>
                     <div className="center">
                         <div>NodeJs/Php</div>
                         <div className="center">
@@ -81,7 +81,7 @@ function SideBar() {
                     </div>
                 </div>
                 <div className="divInfo">
-                    <h2>DevOps</h2>
+                    <h4>DevOps</h4>
                     <div className="center">
                         <div>Git/Docker</div>
                         <div className="center">
