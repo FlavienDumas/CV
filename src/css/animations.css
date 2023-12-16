@@ -1,0 +1,10 @@
+@keyframes pop {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-100%); }
+    75% { transform: translateY(2%); }
+    100%{ transform: translateY(0); }
+}

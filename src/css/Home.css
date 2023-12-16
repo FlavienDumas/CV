@@ -1,5 +1,6 @@
 .divHome{
     flex-direction: column;
+    animation: slideIn 0.5s ease-in-out;
 }
 .divHome .pdp{
     width: 25%;
@@ -66,7 +67,6 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    color: whitesmoke;
 }
 .wideCard div .icon{
     position: absolute;

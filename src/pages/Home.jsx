@@ -38,7 +38,7 @@ function Home() {
             <CardContent 
             title={"Terana"}
             content={textTerana}
-            logo={<img src="../src/assets/terana.png" alt="WCS" />}
+            logo={<img src="../src/assets/terana.png" alt="Terana" />}
             />
             <CardContent 
             title={"Langues"}
