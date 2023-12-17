@@ -67,4 +67,5 @@ h4{
     padding: 0 10px;
     background-color: rgb(185,185,140);
     border-radius: 10px;
+    animation: pop 0.25s ease;
 }

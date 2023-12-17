@@ -1,18 +1,8 @@
-
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
-import { BiLogoTypescript } from "react-icons/bi";
 import { DiReact } from "react-icons/di";
-import { DiGit } from "react-icons/di";
-import { FaDocker } from "react-icons/fa";
 import { TbBrandNodejs } from "react-icons/tb";
-import { SiPhp } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
-import { TbApi } from "react-icons/tb";
-import { DiGithubBadge } from "react-icons/di";
-import { IoLogoLinkedin } from "react-icons/io";
-import { MdPhoneEnabled } from "react-icons/md";
-import { IoMdMail } from "react-icons/io";
 import { SiApollographql } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { GiCardboardBoxClosed } from "react-icons/gi";
@@ -36,11 +26,12 @@ function Projets() {
             <div className="center iconsDiv">
               <FaUserAlt className="icon" color="rgb(18,161,154)"/>
               <GiCardboardBoxClosed className="icon" color="rgb(18,161,154)"/>
-              <FaArrowRightArrowLeft className="icon" color="rgb(204,18,53)"/>
+              <FaArrowRightArrowLeft className="icon shake" color="rgb(204,18,53)"/>
               <GiCardboardBoxClosed className="icon" color="rgb(201,158,103)"/>
               <FaUserAlt className="icon" color="rgb(201,158,103)"/>
             </div>
-            <p>C'est aussi l'outil de travail du personnel sur le terrain, en charge des livraisons.</p>
+            <p>Permettant de créer et consulter les colis de chacun des 450 utilisateurs, <br/> 
+              C'est aussi l'outil de travail du personnel sur le terrain, en charge des livraisons.</p>
             <div className="center iconsDiv">
               <FaUserAlt className="icon" color="rgb(200,200,200)"/>
               <FaTruck className="icon" color="rgb(200,200,200)"/>

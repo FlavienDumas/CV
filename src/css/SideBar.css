@@ -1,4 +1,5 @@
 .divSideBar{
+    z-index: 10;
     position: fixed;
     height: 94vh;
     min-width: 275px;

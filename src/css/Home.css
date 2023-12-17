@@ -39,6 +39,7 @@
     width: 100%;
     padding: 3%;
     background-color: rgb(75,75,100);
+    transition: justify-content 1s ease;
 }
 .wideCard p{
     color: rgb(200,200,200);
