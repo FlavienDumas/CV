@@ -7,6 +7,10 @@
     width: 90px;
     height: 90px;
     border-radius: 100%;
+    transition: 0.5s linear;
+}
+.divHead img:hover{
+    transform: scale(1.75);
 }
 .divHead div{
     margin: 5px;

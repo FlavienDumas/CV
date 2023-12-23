@@ -28,10 +28,6 @@ function SideBar() {
         setMailHover(!mailHover)
     }
 
-    const copyContent = (content)=>{
-        
-    }
-
     return (
         <div className="divSideBar">
             <CardSelf/>
@@ -51,15 +47,15 @@ function SideBar() {
                     <div className="center">
                         <div>React</div>
                         <div className="center">
-                            <DiReact className="icon"/>
+                            <DiReact className="icon react"/>
                         </div>
                     </div>
                     <div className="center">
                         <div>Html/Css/TS</div>
                         <div className="center">
-                            <DiHtml5 className="icon"/>
-                            <DiCss3 className="icon"/>
-                            <BiLogoTypescript className="icon"/>
+                            <DiHtml5 className="icon html"/>
+                            <DiCss3 className="icon css"/>
+                            <BiLogoTypescript className="icon typeScript"/>
                         </div>
                     </div>
                 </div>
@@ -68,15 +64,15 @@ function SideBar() {
                     <div className="center">
                         <div>NodeJs/Php</div>
                         <div className="center">
-                            <TbBrandNodejs className="icon"/>
-                            <SiPhp className="icon"/>
+                            <TbBrandNodejs className="icon nodeJS"/>
+                            <SiPhp className="icon php"/>
                         </div>
                     </div>
                     <div className="center">
                         <div>GraphQL/REST</div>
                         <div className="center">
-                            <GrGraphQl className="icon"/>
-                            <TbApi className="icon"/>
+                            <GrGraphQl className="icon graphQL"/>
+                            <TbApi className="icon api"/>
                         </div>
                     </div>
                 </div>
@@ -85,34 +81,34 @@ function SideBar() {
                     <div className="center">
                         <div>Git/Docker</div>
                         <div className="center">
-                            <DiGit className="icon"/>
-                            <FaDocker className="icon"/>
+                            <DiGit className="icon git"/>
+                            <FaDocker className="icon docker"/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="center divContact">
                 <a href="https://github.com/FlavinouTheOne" target="_blank">
-                    <DiGithubBadge className="icon"/>
+                    <DiGithubBadge className="icon gitHub"/>
                 </a>
                 <a href="https://www.linkedin.com/in/flavien-dumas-b90261245/" target="_blank">
-                    <IoLogoLinkedin className="icon"/>
+                    <IoLogoLinkedin className="icon linkedin"/>
                 </a>
                 <div className="iconContainer" onMouseEnter={handlePhoneHover}
-                onMouseLeave={handlePhoneHover} onClick={()=>{copyContent("")}}>
+                onMouseLeave={handlePhoneHover}>
                     {phoneHover === true ?
                     <div className="popdiv">
                         06.61.77.61.72
                     </div>: null}
-                    <MdPhoneEnabled className="icon"/>
+                    <MdPhoneEnabled className="icon phone"/>
                 </div>
                 <div className="iconContainer" onMouseEnter={handleMailHover}
-                onMouseLeave={handleMailHover} onClick={()=>{copyContent("")}}>
+                onMouseLeave={handleMailHover}>
                     {mailHover === true ?
                     <div className="popdiv">
                         Flavien.dumas63@gmail.com
                     </div>: null}
-                    <IoMdMail className="icon"/>
+                    <IoMdMail className="icon mail"/>
                 </div>
             </div>
         </div>

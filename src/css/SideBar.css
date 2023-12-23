@@ -32,6 +32,41 @@
     width: 35px;
     color: rgb(200,200,200);
     margin: 0 2px;
+    transition: 0.5s ease;
+    animation: shine 6s ease;
+}
+.divInfo .icon:hover{
+    transform: scale(1.25);
+}
+.divInfo .react:hover{
+    color: rgb(0,216,255);
+}
+.divInfo .html:hover{
+    color: rgb(229,76,37);
+}
+.divInfo .css:hover{
+    color: rgb(36,78,228);
+}
+.divInfo .typeScript:hover{
+    color: rgb(49,121,199);
+}
+.divInfo .nodeJS:hover{
+    color: rgb(118,179,98);
+}
+.divInfo .php:hover{
+    color: rgb(115,119,173);
+}
+.divInfo .graphQL:hover{
+    color: rgb(222,51,166);
+}
+.divInfo .api:hover{
+    color: rgb(0,0,0);
+}
+.divInfo .git:hover{
+    color: rgb(232,77,49);
+}
+.divInfo .docker:hover{
+    color: rgb(35,145,230);
 }
 
 .divContact{
@@ -51,10 +86,23 @@
     height: 25px;
     width: 25px;
     color: rgb(200,200,200);
+    transition: 0.5s ease;
 }
 .divContact .icon:hover{
-    background-color: rgb(50,50,60);
+    transform: scale(1.5);
     cursor: pointer;
+}
+.divContact .linkedin:hover{
+    color: rgb(10,99,188);
+}
+.divContact .gitHub:hover{
+    color: rgb(0,0,0);
+}
+.divContact .phone:hover{
+    color: rgb(255,255,255);
+}
+.divContact .mail:hover{
+    color: rgb(255,255,255);
 }
 .divContact .iconContainer{
     position: relative;

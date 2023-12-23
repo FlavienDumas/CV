@@ -16,7 +16,9 @@ function Home() {
 
   const sizeGrow = ()=>{
     setSizeUpAnimation({
-      animation: "dumbSizeUp 10s linear infinite"
+      animation: "tilt 2s linear infinite",
+      height: "70px",
+      width: "70px"
     })
   }
 

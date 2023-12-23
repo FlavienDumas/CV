@@ -2,21 +2,27 @@
     0% { transform: translateX(-50%) scale(0); }
     100% { transform: translateX(-50%) scale(1); }
 }
-
 @keyframes slideIn {
     0% { transform: translateY(-100%); }
     75% { transform: translateY(2%); }
     100%{ transform: translateY(0); }
 }
-
 @keyframes shakyShaky {
     0% { transform: translateX(10%); }
     50% { transform: translateX(-10%); }
     100% { transform: translateX(10%); }
 }
-
 @keyframes dumbSizeUp {
     0% { transform: scale(1) rotate(360deg); }
     50% { transform: scale(10) rotate(180deg); }
     100% { transform: scale(1) rotate(0deg); }
+}
+@keyframes shine {
+    85% { color: currentColor; transform: scale(1); }
+    90% { color: white; transform: scale(1.25); }
+    95% { color: currentColor; transform: scale(1); }
+}
+@keyframes tilt {
+    25% { transform: rotate(60deg); }
+    75% { transform: rotate(-60deg); }
 }

@@ -76,6 +76,7 @@
     color: whitesmoke;
     width: 35px;
     height: 35px;
+    transition: 1s linear;
 }
 
 .smallCardsDiv{
