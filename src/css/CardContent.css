@@ -2,9 +2,9 @@
     position: relative;
     flex-direction: column;
     width: 27%;
-    height: 15rem;
     min-width: 270px;
-    min-height: 120px;
+    height: 30vh;
+    min-height: 180px;
     margin: 0.5rem;
     padding: 0.5rem;
     background-color: rgb(75,75,100);
@@ -21,7 +21,7 @@
 }
 .divCardContent p{
     color: rgb(200,200,200);
-    font-size: 16px;
+    font-size: max(2vh, 1vw, 16px);
 }
 .divCardContent div{
     position: absolute;

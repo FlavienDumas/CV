@@ -1,4 +1,3 @@
-import CardSelf from "./CardSelf";
 import { useState } from "react";
 
 import { DiHtml5 } from "react-icons/di";
@@ -30,7 +29,12 @@ function SideBar() {
 
     return (
         <div className="divSideBar">
-            <CardSelf/>
+            <div className="divHead center">
+                <img src="../src/assets/pdpJapon.jpeg" alt="PDP" />
+                <h4>Flavien Dumas</h4>
+                <div className="center">Concepteur / Développeur Fullstack <br/> Junior</div>
+            </div>
+
             <div className="sideGeneralDiv">
                 <div className="divInfo">
                     <div className="center">
@@ -87,6 +91,7 @@ function SideBar() {
                     </div>
                 </div>
             </div>
+
             <div className="center divContact">
                 <a href="https://github.com/FlavinouTheOne" target="_blank">
                     <DiGithubBadge className="icon gitHub"/>

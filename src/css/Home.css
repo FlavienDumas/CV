@@ -48,8 +48,8 @@
     position: relative;
     flex-direction: column;
     width: 25%;
-    height: 12rem;
     min-width: 240px;
+    height: 25vh;
     margin: 5px;
     padding: 5px;
     border: 1px solid whitesmoke;

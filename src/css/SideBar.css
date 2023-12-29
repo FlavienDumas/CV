@@ -2,13 +2,34 @@
     z-index: 10;
     position: fixed;
     height: 94vh;
-    min-width: 275px;
-    max-width: 275px;
+    width: 275px;
     margin: 2vh 1vw 2vh 1vw;
     background-color: rgb(50,50,60);
 }
 
+.divHead{
+    height: 220px;
+    flex-direction: column;
+    background-color: rgb(75,75,100);
+}
+.divHead img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    transition: 0.5s linear;
+}
+.divHead img:hover{
+    transform: scale(1.75);
+}
+.divHead div{
+    margin: 5px;
+    font-size: max(2vh, 1vw, 16px);
+    color: rgb(175,175,175);
+}
+
 .sideGeneralDiv{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     position: absolute;
     top: 220px;
@@ -16,65 +37,60 @@
     overflow: auto;
 }
 .divInfo{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0 20px;
     padding: 8px 0;
     color: rgb(175,175,175);
     border-bottom: 1px solid rgb(175,175,175);
-    font-size: 15px;
+    font-size: max(1.8vh, 0.8vw, 16px);
+    flex: 1;
 }
 .divInfo div{
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 2px 0;
 }
+
 .divInfo .icon{
-    height: 35px;
-    width: 35px;
+    height: 4.5vh;
+    width: 4.5vh;
     color: rgb(200,200,200);
     margin: 0 2px;
     transition: 0.5s ease;
-    animation: shine 6s ease;
+    animation: shine 5s linear;
 }
 .divInfo .icon:hover{
     transform: scale(1.25);
 }
-.divInfo .react:hover{
-    color: rgb(0,216,255);
-}
-.divInfo .html:hover{
-    color: rgb(229,76,37);
-}
-.divInfo .css:hover{
-    color: rgb(36,78,228);
-}
-.divInfo .typeScript:hover{
-    color: rgb(49,121,199);
-}
-.divInfo .nodeJS:hover{
-    color: rgb(118,179,98);
-}
-.divInfo .php:hover{
-    color: rgb(115,119,173);
-}
-.divInfo .graphQL:hover{
-    color: rgb(222,51,166);
-}
-.divInfo .api:hover{
-    color: rgb(0,0,0);
-}
-.divInfo .git:hover{
-    color: rgb(232,77,49);
-}
-.divInfo .docker:hover{
-    color: rgb(35,145,230);
-}
+.divInfo .react{--shine-color: rgb(0,216,255);}
+.divInfo .html{--shine-color: rgb(229,76,37);}
+.divInfo .css{--shine-color: rgb(36,78,228);}
+.divInfo .typeScript{--shine-color: rgb(49,121,199);}
+.divInfo .nodeJS{--shine-color: rgb(118,179,98);}
+.divInfo .php{--shine-color: rgb(115,119,173);}
+.divInfo .graphQL{--shine-color: rgb(222,51,166);}
+.divInfo .api{--shine-color: rgb(0,0,0);}
+.divInfo .git{--shine-color: rgb(232,77,49);}
+.divInfo .docker{--shine-color: rgb(35,145,230);}
+.divInfo .react:hover{color: rgb(0,216,255);}
+.divInfo .html:hover{color: rgb(229,76,37);}
+.divInfo .css:hover{color: rgb(36,78,228);}
+.divInfo .typeScript:hover{color: rgb(49,121,199);}
+.divInfo .nodeJS:hover{color: rgb(118,179,98);}
+.divInfo .php:hover{color: rgb(115,119,173);}
+.divInfo .graphQL:hover{color: rgb(222,51,166);}
+.divInfo .api:hover{color: rgb(0,0,0);}
+.divInfo .git:hover{color: rgb(232,77,49);}
+.divInfo .docker:hover{color: rgb(35,145,230);}
 
 .divContact{
     position: absolute;
     bottom: 0;
-    width: 235px;
+    width: 100%;
     height: 25px;
-    padding: 8px 20px;
+    padding: 8px 0;
     justify-content: space-around;
     background-color: rgb(75,75,100);
 }

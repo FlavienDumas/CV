@@ -2,14 +2,13 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Projets from "./pages/Projets";
 import Divers from "./pages/Divers";
-import SideBar from "./components/sideBar";
+import SideBar from "./components/SideBar";
 import TopBar from "./components/TopBar";
 import { useState, useEffect } from "react";
 
 import "./css/global.css";
 import "./css/animations.css";
 import "./css/SideBar.css";
-import "./css/CardSelf.css";
 import "./css/TopBar.css";
 import "./css/Home.css";
 import "./css/Projets.css";

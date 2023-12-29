@@ -18,9 +18,7 @@
     100% { transform: scale(1) rotate(0deg); }
 }
 @keyframes shine {
-    85% { color: currentColor; transform: scale(1); }
-    90% { color: white; transform: scale(1.25); }
-    95% { color: currentColor; transform: scale(1); }
+    50% { color: var(--shine-color); }
 }
 @keyframes tilt {
     25% { transform: rotate(60deg); }

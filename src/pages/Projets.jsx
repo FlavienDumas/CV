@@ -47,8 +47,8 @@ function Projets() {
             </div>
             <div className="center">
               <p>Backend : </p>
-              <TbBrandNodejs className="icon"/>
-              <GrGraphQl className="icon"/>
+              <TbBrandNodejs className="icon nodeJS"/>
+              <GrGraphQl className="icon graphQL"/>
               <SiApollographql className="icon"/>
             </div>
             <div className="center">
