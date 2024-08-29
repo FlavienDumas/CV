@@ -18,13 +18,21 @@ import { IoMdMail } from "react-icons/io";
 function SideBar() {
     const [phoneHover, setPhoneHover] = useState(false);
     const [mailHover, setMailHover] = useState(false);
+    const [copiedText, setCopiedtext] = useState('');
 
     const handlePhoneHover = ()=>{
         setPhoneHover(!phoneHover)
+        setCopiedtext('');
     }
 
     const handleMailHover = ()=>{
         setMailHover(!mailHover)
+        setCopiedtext('');
+    }
+
+    const handleCopy = (text)=>{
+        navigator.clipboard.writeText(text);
+        setCopiedtext(text);
     }
 
     return (
@@ -99,19 +107,21 @@ function SideBar() {
                 <a href="https://www.linkedin.com/in/flavien-dumas-b90261245/" target="_blank">
                     <IoLogoLinkedin className="icon linkedin"/>
                 </a>
-                <div className="iconContainer" onMouseEnter={handlePhoneHover}
+                <div className="iconContainer" onClick={()=>{handleCopy('06.61.77.61.72')}}
+                onMouseEnter={handlePhoneHover}
                 onMouseLeave={handlePhoneHover}>
                     {phoneHover === true ?
                     <div className="popdiv">
-                        06.61.77.61.72
+                        {copiedText === '06.61.77.61.72' ? 'Copied!' : '06.61.77.61.72'}
                     </div>: null}
                     <MdPhoneEnabled className="icon phone"/>
                 </div>
-                <div className="iconContainer" onMouseEnter={handleMailHover}
+                <div className="iconContainer" onClick={()=>{handleCopy('Flavien.dumas63@gmail.com')}}
+                onMouseEnter={handleMailHover}
                 onMouseLeave={handleMailHover}>
                     {mailHover === true ?
                     <div className="popdiv">
-                        Flavien.dumas63@gmail.com
+                        {copiedText === 'Flavien.dumas63@gmail.com' ? 'Copied!' : 'Flavien.dumas63@gmail.com'}
                     </div>: null}
                     <IoMdMail className="icon mail"/>
                 </div>

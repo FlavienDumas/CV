@@ -10,6 +10,7 @@
     padding: 10px 1% 43px 1%;
     background-color: rgb(50,50,60);
     border: 2px solid rgb(75,75,100);
+    margin-bottom: 3rem;
 }
 .divProjet .imgDiv{
     flex: 1;
@@ -25,15 +26,19 @@
     color: rgb(200,200,200);
 }
 .iconsDiv{
-    height: min(150px, 10vw);
+    margin: 5vh 0;
+    height: min(150px, 12vh);
 }
 .iconsDiv .icon{
-    height: 50%;
+    height: 90%;
     width: fit-content;
     margin: 0 5px;
 }
 .shake{
     animation: shakyShaky 2s ease-in-out infinite;
+}
+.smalltilt{
+    animation: smalltilt 2s ease-in-out infinite;
 }
 
 .technologiesProjet{

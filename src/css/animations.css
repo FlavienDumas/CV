@@ -24,3 +24,7 @@
     25% { transform: rotate(60deg); }
     75% { transform: rotate(-60deg); }
 }
+@keyframes smalltilt {
+    33% { transform: rotate(10deg); }
+    67% { transform: rotate(-10deg); }
+}

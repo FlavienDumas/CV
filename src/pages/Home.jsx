@@ -26,7 +26,7 @@ function Home() {
     setTextWCS(<><b>09.2023-&gt;09.2024</b> :
     Formation en alternance "Concepteur/Développeur d'application" spécialisée en React/NodeJS</>);
     setTextTerana(<><b>09.2023-&gt;09.2024</b> :
-    Alternance "Développeur logiciel métier" avec de nombreux projets...</>);
+    Alternance "Développeur logiciel métier" avec un projet déployé et fonctionnel</>);
     setTextLangage(<>Maitrise Anglais C1, <br/> Maitrise Japonais N4 (JPLT)</>);
   }, [])
 
@@ -74,7 +74,7 @@ function Home() {
           <div className="center yellow">
             <h3>La curiosité :</h3>
             <p>Toujours à l'affut des prochains outils qui faciliteront la création, 
-              l'évolution et le maintenance des logiciels !</p>
+              l'évolution et la maintenance des logiciels !</p>
             <FaMagnifyingGlass className="icon"/>
           </div>
         </div>
