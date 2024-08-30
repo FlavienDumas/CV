@@ -69,3 +69,33 @@ h4{
     border-radius: 10px;
     animation: pop 0.25s ease;
 }
+
+.react{--shine-color: rgb(0,216,255);}
+.html{--shine-color: rgb(229,76,37);}
+.css{--shine-color: rgb(36,78,228);}
+.typeScript{--shine-color: rgb(49,121,199);}
+.nodeJS{--shine-color: rgb(118,179,98);}
+.php{--shine-color: rgb(115,119,173);}
+.graphQL{--shine-color: rgb(222,51,166);}
+.api{--shine-color: rgb(0,0,0);}
+.git{--shine-color: rgb(232,77,49);}
+.docker{--shine-color: rgb(35,145,230);}
+.apollo{--shine-color: rgb(0,90,175);}
+.postgresql{--shine-color: rgb(49,100,140);}
+.python{--shine-color: rgb(255,205,56);}
+.json{--shine-color: rgb(203,203,65);}
+
+.react:hover{color: rgb(0,216,255);}
+.html:hover{color: rgb(229,76,37);}
+.css:hover{color: rgb(36,78,228);}
+.typeScript:hover{color: rgb(49,121,199);}
+.nodeJS:hover{color: rgb(118,179,98);}
+.php:hover{color: rgb(115,119,173);}
+.graphQL:hover{color: rgb(222,51,166);}
+.api:hover{color: rgb(0,0,0);}
+.git:hover{color: rgb(232,77,49);}
+.docker:hover{color: rgb(35,145,230);}
+.apollo:hover{color: rgb(0,90,175);}
+.postgresql:hover{color: rgb(49,100,140);}
+.python:hover{color: rgb(255,205,56);}
+.json:hover{color: rgb(203,203,65);}

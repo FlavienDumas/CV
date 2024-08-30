@@ -12,11 +12,6 @@
     50% { transform: translateX(-10%); }
     100% { transform: translateX(10%); }
 }
-@keyframes dumbSizeUp {
-    0% { transform: scale(1) rotate(360deg); }
-    50% { transform: scale(10) rotate(180deg); }
-    100% { transform: scale(1) rotate(0deg); }
-}
 @keyframes shine {
     50% { color: var(--shine-color); }
 }
@@ -27,4 +22,32 @@
 @keyframes smalltilt {
     33% { transform: rotate(10deg); }
     67% { transform: rotate(-10deg); }
+}
+@keyframes transfert {
+    0% {
+        transform: translate(0) scale(0);
+    }
+    5% {
+        transform: translate(0) scale(100%);
+    }
+    95% {
+        transform: translate(5vw) scale(100%);
+    }
+    100% {
+        transform: translate(5vw) scale(0);
+    }
+}
+@keyframes transfertReverse {
+    0% {
+        transform: translate(0) scale(0);
+    }
+    5% {
+        transform: translate(0) scale(100%);
+    }
+    95% {
+        transform: translate(-5vw) scale(100%);
+    }
+    100% {
+        transform: translate(-5vw) scale(0);
+    }
 }

@@ -56,7 +56,6 @@
 .divInfo .icon{
     height: 4.5vh;
     width: 4.5vh;
-    color: rgb(200,200,200);
     margin: 0 2px;
     transition: 0.5s ease;
     animation: shine 5s linear;
@@ -64,26 +63,6 @@
 .divInfo .icon:hover{
     transform: scale(1.25);
 }
-.divInfo .react{--shine-color: rgb(0,216,255);}
-.divInfo .html{--shine-color: rgb(229,76,37);}
-.divInfo .css{--shine-color: rgb(36,78,228);}
-.divInfo .typeScript{--shine-color: rgb(49,121,199);}
-.divInfo .nodeJS{--shine-color: rgb(118,179,98);}
-.divInfo .php{--shine-color: rgb(115,119,173);}
-.divInfo .graphQL{--shine-color: rgb(222,51,166);}
-.divInfo .api{--shine-color: rgb(0,0,0);}
-.divInfo .git{--shine-color: rgb(232,77,49);}
-.divInfo .docker{--shine-color: rgb(35,145,230);}
-.divInfo .react:hover{color: rgb(0,216,255);}
-.divInfo .html:hover{color: rgb(229,76,37);}
-.divInfo .css:hover{color: rgb(36,78,228);}
-.divInfo .typeScript:hover{color: rgb(49,121,199);}
-.divInfo .nodeJS:hover{color: rgb(118,179,98);}
-.divInfo .php:hover{color: rgb(115,119,173);}
-.divInfo .graphQL:hover{color: rgb(222,51,166);}
-.divInfo .api:hover{color: rgb(0,0,0);}
-.divInfo .git:hover{color: rgb(232,77,49);}
-.divInfo .docker:hover{color: rgb(35,145,230);}
 
 .divContact{
     position: absolute;
