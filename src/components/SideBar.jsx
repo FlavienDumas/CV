@@ -112,7 +112,7 @@ function SideBar() {
                 onMouseLeave={handlePhoneHover}>
                     {phoneHover === true ?
                     <div className="popdiv">
-                        {copiedText === '06.61.77.61.72' ? 'Copied!' : '06.61.77.61.72'}
+                        {copiedText === '06.61.77.61.72' ? 'Copié!' : '06.61.77.61.72'}
                     </div>: null}
                     <MdPhoneEnabled className="icon phone"/>
                 </div>
@@ -121,7 +121,7 @@ function SideBar() {
                 onMouseLeave={handleMailHover}>
                     {mailHover === true ?
                     <div className="popdiv">
-                        {copiedText === 'Flavien.dumas63@gmail.com' ? 'Copied!' : 'Flavien.dumas63@gmail.com'}
+                        {copiedText === 'Flavien.dumas63@gmail.com' ? 'Copié!' : 'Flavien.dumas63@gmail.com'}
                     </div>: null}
                     <IoMdMail className="icon mail"/>
                 </div>

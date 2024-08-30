@@ -28,7 +28,7 @@ function Projets() {
           </div>
           <div className="contentDiv">
             <h3>Application de gestion de colis interne</h3>
-            <p>Une application Web dont l'objectif est de faciliter le partage et l'accès aux informations
+            <p>Une application web dont l'objectif est de faciliter le partage et l'accès aux informations
               concernant les colis qui transitent chaque jour entre les 9 laboratoires de l'entreprise.</p>
             <div className="center iconsDiv">
               <FaUserAlt className="icon" color="rgb(18,161,154)"/>
@@ -74,9 +74,9 @@ function Projets() {
           </div>
           <div className="contentDiv">
             <h3>Jeu de carte</h3>
-            <p>Une application desktop ou deux joueurs s'affrontent avec leurs deck respectif.
-              Un simple jeu de cartes développé dans une optique d'apprentissage qui m'a fait découvrir la POO
-               (Programmation Orientée Objet).
+            <p>Une application desktop où deux joueurs s'affrontent avec leurs deck respectif.
+              Un simple jeu de cartes développé en python dans une optique d'apprentissage autodidacte qui m'a fait 
+              découvrir la POO (Programmation Orientée Objet).
             </p>
             <div className="center iconsDiv" style={{
               marginBottom: 0,
