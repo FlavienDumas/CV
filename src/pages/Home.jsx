@@ -34,7 +34,11 @@ function Home() {
     <div className="divHome">
       <div className="center divTitle">
         <h1>Titulaire d'un master Logistique/Stockastique, puis... <br/>
-        Reconvertis à la <a className="wcsLink" href="https://www.wildcodeschool.com">Wild Code School!</a></h1>
+          Reconvertis à la&#x202F;&#x202F;
+          <a className="wcsLink" href="https://www.wildcodeschool.com" target="_blank">
+            Wild Code School!
+          </a>
+        </h1>
         <img className="pdp" src="/pdp.jpg" alt="PDP" />
       </div>
       <div className="center contentHome">
