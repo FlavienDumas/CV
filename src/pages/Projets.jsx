@@ -67,7 +67,7 @@ function Projets() {
         
         <div className="divProjet">
           <div className="center imgDiv">
-            <img src="../src/assets/python.png" alt="Terana" style={{
+            <img src="../src/assets/python.png" alt="Python" style={{
               height: '15rem',
               width: '15rem'
             }}/>
