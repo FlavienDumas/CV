@@ -24,7 +24,7 @@ function Projets() {
       <div className="center divProjets">
         <div className="divProjet">
           <div className="center imgDiv">
-            <img src="../src/assets/terana.png" alt="Terana" />
+            <img src="/terana.png" alt="Terana" />
           </div>
           <div className="contentDiv">
             <h3>Application de gestion de colis interne</h3>
@@ -67,7 +67,7 @@ function Projets() {
         
         <div className="divProjet">
           <div className="center imgDiv">
-            <img src="../src/assets/python.png" alt="Python" style={{
+            <img src="/python.png" alt="Python" style={{
               height: '15rem',
               width: '15rem'
             }}/>
