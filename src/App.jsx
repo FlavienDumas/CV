@@ -27,8 +27,8 @@ function App() {
       <TopBar/>
       <div className="mainContent">
         <Routes location={prevLocation || location}>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/Projets" element={<Projets/>}/>
+            <Route path="/CV/" element={<Home/>}/>
+            <Route path="/CV/Projets" element={<Projets/>}/>
         </Routes>
       </div>
     </>
