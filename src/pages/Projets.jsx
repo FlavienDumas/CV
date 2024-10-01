@@ -3,8 +3,12 @@ import { DiCss3 } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { TbBrandNodejs } from "react-icons/tb";
 import { GrGraphQl } from "react-icons/gr";
+import { FaAngular } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
 import { SiApollographql } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { GiCardboardBox } from "react-icons/gi";
 import { GiCardboardBoxClosed } from "react-icons/gi";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { FaUserAlt } from "react-icons/fa";
@@ -20,6 +24,7 @@ import { BiSolidFileJson } from "react-icons/bi";
 import { FaFilePdf } from "react-icons/fa";
 import { FaServer } from "react-icons/fa";
 import { FaFileImage } from "react-icons/fa6";
+import { MdWarehouse } from "react-icons/md";
 
 function Projets() {
 
@@ -51,9 +56,9 @@ function Projets() {
           <div className="center technologiesProjet">
             <div className="center">
               <p>Frontend : </p>
+              <DiReact className="icon react"/>
               <DiHtml5 className="icon html"/>
               <DiCss3 className="icon css"/>
-              <DiReact className="icon react"/>
             </div>
             <div className="center">
               <p>Backend : </p>
@@ -109,15 +114,69 @@ function Projets() {
           <div className="center technologiesProjet">
             <div className="center">
               <p>Frontend : </p>
+              <DiReact className="icon react"/>
               <DiHtml5 className="icon html"/>
               <DiCss3 className="icon css"/>
-              <DiReact className="icon react"/>
             </div>
             <div className="center">
               <p>Backend : </p>
               <TbBrandNodejs className="icon nodeJS"/>
               <GrGraphQl className="icon graphQL"/>
               <SiApollographql className="icon apollo"/>
+            </div>
+            <div className="center">
+              <p>Base de données : </p>
+              <BiLogoPostgresql className="icon postgresql"/>
+            </div>
+          </div>
+        </div>
+
+        <div className="divProjet">
+          <div className="center imgDiv">
+            <img src="/CV/stockLogo.png" alt="Python" style={{
+              height: '15rem',
+              width: '15rem'
+            }}/>
+          </div>
+          <div className="contentDiv">
+            <h3>Logiciel de gestion de stock</h3>
+            <p>Une application web de gestion de stock et de commandes dont les fonctionnalités sont
+              inspirées par mes expériences professionnelles dans le secteur de la logistique. Un
+              frontend Angular en relation avec une API REST Java Bootstrap.
+            </p>
+            <div className="center iconsDiv" style={{
+              marginBottom: 0,
+            }}>
+              <FaUserAlt className="icon transfert" color="rgb(200,200,200)"/>
+              <GiCardboardBoxClosed className="icon transfert" color="rgb(218,172,130)"/>
+              <div style={{
+                width: '10%'
+              }}/>
+              <MdWarehouse className="icon" color="rgb(109,179,63)"/>
+            </div>
+            <div className="center iconsDiv" style={{
+              marginTop: 0,
+            }}>
+              <div style={{
+                width: '10%'
+              }}/>
+              <GiCardboardBox className="icon transfertReverse" color="rgb(218,172,130)"/>
+              <FaUserAlt className="icon transfertReverse" color="rgb(200,200,200)"/>
+              <MdWarehouse className="icon" color="rgb(109,179,63)"/>
+            </div>
+          </div>
+          
+          <div className="center technologiesProjet">
+            <div className="center">
+              <p>Frontend : </p>
+              <FaAngular className="icon angular"/>
+              <DiHtml5 className="icon html"/>
+              <DiCss3 className="icon css"/>
+            </div>
+            <div className="center">
+              <p>Backend : </p>
+              <FaJava className="icon java"/>
+              <SiSpringboot className="icon springboot"/>
             </div>
             <div className="center">
               <p>Base de données : </p>

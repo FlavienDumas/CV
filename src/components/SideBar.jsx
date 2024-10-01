@@ -7,7 +7,8 @@ import { DiReact } from "react-icons/di";
 import { DiGit } from "react-icons/di";
 import { FaDocker } from "react-icons/fa";
 import { TbBrandNodejs } from "react-icons/tb";
-import { SiPhp } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import { GrGraphQl } from "react-icons/gr";
 import { TbApi } from "react-icons/tb";
 import { DiGithubBadge } from "react-icons/di";
@@ -57,9 +58,10 @@ function SideBar() {
                 <div className="divInfo">
                     <h4>Frontend</h4>
                     <div className="center">
-                        <div>React</div>
+                        <div>React/Angular</div>
                         <div className="center">
                             <DiReact className="icon react"/>
+                            <FaAngular className="icon angular"/>
                         </div>
                     </div>
                     <div className="center">
@@ -74,10 +76,10 @@ function SideBar() {
                 <div className="divInfo">
                     <h4>Backend</h4>
                     <div className="center">
-                        <div>NodeJs/Php</div>
+                        <div>NodeJs/Java</div>
                         <div className="center">
                             <TbBrandNodejs className="icon nodeJS"/>
-                            <SiPhp className="icon php"/>
+                            <FaJava className="icon java"/>
                         </div>
                     </div>
                     <div className="center">
