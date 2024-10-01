@@ -7,13 +7,13 @@ function TopBar() {
 
   return (
     <div className="center divTopBar">
-      <button onClick={()=>{navigate("/")}} style={{
-        backgroundColor: location.pathname === '/' ? 'rgb(50,50,60)' : null
+      <button onClick={()=>{navigate("/CV/")}} style={{
+        backgroundColor: location.pathname === '/CV/' ? 'rgb(50,50,60)' : null
       }}>
         <h3>Bonjour!</h3>
       </button>
-      <button onClick={()=>{navigate("/Projets")}} style={{
-        backgroundColor: location.pathname === '/Projets' ? 'rgb(50,50,60)' : null
+      <button onClick={()=>{navigate("/CV/Projets")}} style={{
+        backgroundColor: location.pathname === '/CV/Projets' ? 'rgb(50,50,60)' : null
       }}>
         <h3>Projets</h3>
       </button>

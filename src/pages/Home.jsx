@@ -39,19 +39,19 @@ function Home() {
             Wild Code School!
           </a>
         </h1>
-        <img className="pdp" src="/pdp.jpg" alt="PDP" />
+        <img className="pdp" src="/CV/pdp.jpg" alt="PDP" />
       </div>
       <div className="center contentHome">
         <div className="center smallCardsDiv">
           <CardContent 
           title={"Wild Code School"}
           content={textWCS}
-          logo={<img src="/wcs.png" alt="WCS" />}
+          logo={<img src="/CV/wcs.png" alt="WCS" />}
           />
           <CardContent 
           title={"Terana"}
           content={textTerana}
-          logo={<img src="/terana.png" alt="Terana" />}
+          logo={<img src="/CV/terana.png" alt="Terana" />}
           />
           <CardContent 
           title={"Langues"}
