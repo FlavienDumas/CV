@@ -141,8 +141,8 @@ function Projets() {
           <div className="contentDiv">
             <h3>Logiciel de gestion de stock</h3>
             <p>Une application web de gestion de stock et de commandes dont les fonctionnalités sont
-              inspirées par mes expériences professionnelles dans le secteur de la logistique. Un
-              frontend Angular en relation avec une API REST Java Bootstrap.
+              inspirées par mes expériences professionnelles dans le secteur de la logistique. Elle est
+              composée d'un frontend Angular en relation avec une API REST en Java avec SpringBoot.
             </p>
             <div className="center iconsDiv" style={{
               marginBottom: 0,
