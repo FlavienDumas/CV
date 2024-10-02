@@ -41,20 +41,10 @@ function SideBar() {
             <div className="divHead center">
                 <img src="/CV/pdpJapon.jpeg" alt="PDP" />
                 <h4>Flavien Dumas</h4>
-                <div className="center">Concepteur / Développeur Fullstack <br/> Junior</div>
+                <div className="center">Concepteur / Développeur Fullstack</div>
             </div>
 
             <div className="sideGeneralDiv">
-                <div className="divInfo">
-                    <div className="center">
-                        <div>Ville:</div>
-                        <div>Clermont-Ferrand</div>
-                    </div>
-                    <div className="center">
-                        <div>Age:</div>
-                        <div>23</div>
-                    </div>
-                </div>
                 <div className="divInfo">
                     <h4>Frontend</h4>
                     <div className="center">
