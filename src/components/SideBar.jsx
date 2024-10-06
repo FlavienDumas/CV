@@ -147,7 +147,7 @@ function SideBar() {
             </div>
 
             <div className="center divContact">
-                <a href="https://github.com/FlavinouTheOne" target="_blank">
+                <a href="https://github.com/FlavienDumas" target="_blank">
                     <DiGithubBadge className="icon gitHub"/>
                 </a>
                 <a href="https://www.linkedin.com/in/flavien-dumas-b90261245/" target="_blank">
