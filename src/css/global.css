@@ -87,6 +87,7 @@ h4{
 .postgresql{--shine-color: rgb(49,100,140);}
 .python{--shine-color: rgb(255,205,56);}
 .json{--shine-color: rgb(203,203,65);}
+.jira{--shine-color: rgb(37,128,247);}
 
 .react:hover{color: rgb(0,216,255);}
 .html:hover{color: rgb(229,76,37);}
@@ -105,3 +106,4 @@ h4{
 .postgresql:hover{color: rgb(49,100,140);}
 .python:hover{color: rgb(255,205,56);}
 .json:hover{color: rgb(203,203,65);}
+.jira:hover{color: rgb(37,128,247);}

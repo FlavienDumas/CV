@@ -65,8 +65,8 @@ function Home() {
         <div className="center wideCard">
           <div className="center yellow">
             <h3>Expérience utilisateur :</h3>
-            <p>Quand on a fait des études dans plusieurs secteurs du tertiaire, facile de comprendre 
-              les besoins métier des utilisateurs !</p>
+            <p>Après des études et plusieurs expériences dans le secteur du tertiaire, je peux
+              comprendre les besoins métier des utilisateurs avec aisance !</p>
             <FaRegUser className="icon"/>
           </div>
           <div className="center yellow">
@@ -77,8 +77,8 @@ function Home() {
           </div>
           <div className="center yellow">
             <h3>La curiosité :</h3>
-            <p>Toujours à l'affut des prochains outils qui faciliteront la création, 
-              l'évolution et la maintenance des logiciels !</p>
+            <p>Je porte toujours un grand intéret aux nouveaux outils de création, de déploiement et de 
+              maintenance des logiciels !</p>
             <FaMagnifyingGlass className="icon"/>
           </div>
         </div>
