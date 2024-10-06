@@ -15,6 +15,7 @@ import { DiGithubBadge } from "react-icons/di";
 import { IoLogoLinkedin } from "react-icons/io";
 import { MdPhoneEnabled } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
+import { SiJira } from "react-icons/si";
 
 function SideBar() {
     const [phoneHover, setPhoneHover] = useState(false);
@@ -41,62 +42,105 @@ function SideBar() {
             <div className="divHead center">
                 <img src="/CV/pdpJapon.jpeg" alt="PDP" />
                 <h4>Flavien Dumas</h4>
-                <div className="center">Concepteur / Développeur Fullstack <br/> Junior</div>
+                <div className="center">Concepteur / Développeur Fullstack</div>
             </div>
 
             <div className="sideGeneralDiv">
                 <div className="divInfo">
-                    <div className="center">
-                        <div>Ville:</div>
-                        <div>Clermont-Ferrand</div>
-                    </div>
-                    <div className="center">
-                        <div>Age:</div>
-                        <div>23</div>
-                    </div>
-                </div>
-                <div className="divInfo">
                     <h4>Frontend</h4>
-                    <div className="center">
-                        <div>React/Angular</div>
-                        <div className="center">
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        margin: 0
+                    }}>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <DiReact className="icon react"/>
-                            <FaAngular className="icon angular"/>
+                            <span>React</span>
                         </div>
-                    </div>
-                    <div className="center">
-                        <div>Html/Css/TS</div>
-                        <div className="center">
-                            <DiHtml5 className="icon html"/>
-                            <DiCss3 className="icon css"/>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
+                            <FaAngular className="icon angular"/>
+                            <span>Angular</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
+                            <div style={{
+                                margin: 0
+                            }}>
+                                <DiHtml5 className="icon html"/>
+                                <DiCss3 className="icon css"/>
+                            </div>
+                            <span>Html/Css</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <BiLogoTypescript className="icon typeScript"/>
+                            <span>Typescript</span>
                         </div>
                     </div>
                 </div>
                 <div className="divInfo">
                     <h4>Backend</h4>
-                    <div className="center">
-                        <div>NodeJs/Java</div>
-                        <div className="center">
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        margin: 0
+                    }}>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <TbBrandNodejs className="icon nodeJS"/>
-                            <FaJava className="icon java"/>
+                            <span>NodeJs</span>
                         </div>
-                    </div>
-                    <div className="center">
-                        <div>GraphQL/REST</div>
-                        <div className="center">
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
+                            <FaJava className="icon java"/>
+                            <span>Java</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <GrGraphQl className="icon graphQL"/>
+                            <span>GraphQL</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <TbApi className="icon api"/>
+                            <span>REST</span>
                         </div>
                     </div>
                 </div>
                 <div className="divInfo">
                     <h4>DevOps</h4>
-                    <div className="center">
-                        <div>Git/Docker</div>
-                        <div className="center">
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(3, 1fr)',
+                        margin: 0
+                    }}>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <DiGit className="icon git"/>
+                            <span>Git</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
                             <FaDocker className="icon docker"/>
+                            <span>Docker</span>
+                        </div>
+                        <div className="center" style={{
+                            flexDirection: 'column'
+                        }}>
+                            <SiJira className="icon jira"/>
+                            <span>Jira</span>
                         </div>
                     </div>
                 </div>
